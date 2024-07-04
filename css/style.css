@@ -747,6 +747,12 @@ h2.title {
 }
 
 /*fitnessbanner-css-end*/
+/*footballboots-banner-css-start*/
+.footballboots-banner.banner {
+  background-image: url(../images/Footballboots-banner.jpg);
+}
+
+/*footballboots-banner-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
