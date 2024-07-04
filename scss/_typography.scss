@@ -1,0 +1,95 @@
+@import './variables';
+@import './mixins';
+
+li {
+    list-style: none;
+}
+
+a,
+button {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.primary-btn {
+    a {
+        background: $clr-pink;
+        padding: 6px 138px;
+        font-size: 20px;
+        border: 1px solid $clr-pink;
+        border-radius: 6px;
+        display: inline-block;
+        color: $clr-white;
+    }
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.44);
+    z-index: 0;
+    height: 450px;
+}
+
+.banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+
+.bannertitle {
+    z-index: 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: $clr-grey;
+
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: $clr-white;
+    background-color: #f32c466e;
+    padding: 20px;
+    border-radius: 10px;
+
+    @include mq(sm) {
+        font-size: 25px;
+    }
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 75px;
+    font-weight: 500;
+    color: $clr-pink;
+    position: relative;
+
+    &::after {
+        background-color: $clr-darkblue;
+        content: "";
+        position: absolute;
+        width: 10%;
+        height: 3px;
+        bottom: 2px;
+        left: 0;
+    }
+}
+
+h3 {
+    font-size: 28px;
+    line-height: normal;
+    font-weight: 500;
+    margin-bottom: 0;
+}
