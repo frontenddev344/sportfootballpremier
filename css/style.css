@@ -10,8 +10,8 @@ button {
 
 .primary-btn a {
   background: #f32c46;
-  padding: 6px 138px;
-  font-size: 20px;
+  padding: 10px 122px;
+  font-size: 17px;
   border: 1px solid #f32c46;
   border-radius: 6px;
   display: inline-block;
@@ -40,7 +40,9 @@ button {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
+  width: 100%;
   top: 50%;
+  text-align: center;
 }
 
 p {
@@ -54,9 +56,12 @@ h1 {
   font-size: 60px;
   font-weight: 500;
   color: #fff;
-  background-color: rgba(243, 44, 70, 0.431372549);
-  padding: 20px;
   border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
 }
 @media screen and (max-width: 575px) {
   h1 {
@@ -619,7 +624,7 @@ h2.title {
 
 .homecard .card {
   position: relative;
-  width: 350px;
+  width: 100%;
   height: 350px;
 }
 
@@ -682,6 +687,10 @@ h2.title {
   color: #f32c46;
 }
 
+.mails-names a {
+  word-break: break-all;
+}
+
 /*home-css-end*/
 /*Premier-css-start*/
 .premierbanner.banner {
@@ -710,14 +719,14 @@ h2.title {
   object-fit: cover;
 }
 .premier-content h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   word-break: break-all;
   line-height: 27px;
 }
 .premier-content h4 {
   margin: 10px 0;
-  font-size: 28px;
+  font-size: 23px;
 }
 
 .premier-top {
@@ -725,6 +734,19 @@ h2.title {
 }
 
 /*Premier-css-end*/
+/*irelandbanner-css-start*/
+.irelandbanner.banner {
+  background-image: url(../images/Ireland-banner.jpg);
+  background-position: top;
+}
+
+/*irelandbanner-css-end*/
+/*fitnessbanner-css-start*/
+.fitnessbanner.banner {
+  background-image: url(../images/fitnessbanner.jpg);
+}
+
+/*fitnessbanner-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */

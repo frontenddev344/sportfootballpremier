@@ -376,21 +376,24 @@ nav.site-nav {
     background-image: url(../images/contactus-banner.jpg);
     position: relative;
 }
+
 .contact-box .about_us_content h2::after {
     content: none;
 }
+
 .contact-box .about_us_content {
     margin: 0 0 30px 0;
-  }
-  .contact-box .about_us_content h2 {
+}
+
+.contact-box .about_us_content h2 {
     margin: 30px 0 !important;
-  }
-  
-  .contact-box .form-group {
+}
+
+.contact-box .form-group {
     margin-bottom: 2rem;
-  }
-  
-  .contact-box .input-control {
+}
+
+.contact-box .input-control {
     display: block;
     width: 100%;
     height: 4rem;
@@ -399,18 +402,18 @@ nav.site-nav {
     padding: 2rem 2rem;
     background: transparent;
     color: #0C0B0B;
-  }
-  
-  .contact-box .input-control:focus-visible {
+}
+
+.contact-box .input-control:focus-visible {
     outline: none;
-  }
-  
-  .contact-box textarea.input-control {
+}
+
+.contact-box textarea.input-control {
     resize: none;
     height: auto;
-  }
-  
-  .contact-box .form-group .submit-btn {
+}
+
+.contact-box .form-group .submit-btn {
     background: $clr-pink;
     border: 1px solid $clr-pink;
     transition: all 0.2s linear;
@@ -419,29 +422,33 @@ nav.site-nav {
     color: #fff;
     text-transform: capitalize;
     border-radius: 10px;
-  }
-  .contact-box .form-group .submit-btn:hover {
+}
+
+.contact-box .form-group .submit-btn:hover {
     background-color: transparent;
     color: #0C0B0B;
-  }
-  
-  .contact-box .form-group label {
+}
+
+.contact-box .form-group label {
     display: inline-block;
     padding-bottom: 5px;
     color: $clr-pink;
     transition: all 0.2s linear;
     text-transform: capitalize;
     font-size: 18px;
-  }
-  .contact-text {
-  h3 {
-    color: $clr-darkblue;
 }
-p span{
-    color: $clr-pink;
-    font-weight: 600;
+
+.contact-text {
+    h3 {
+        color: $clr-darkblue;
+    }
+
+    p span {
+        color: $clr-pink;
+        font-weight: 600;
+    }
 }
-  }
+
 /*contact-banner-end*/
 
 /*terms-start*/
@@ -582,7 +589,7 @@ h2.title {
 
 .homecard .card {
     position: relative;
-    width: 350px;
+    width: 100%;
     height: 350px;
 }
 
@@ -646,6 +653,9 @@ h2.title {
     color: $clr-pink;
 }
 
+.mails-names a {
+    word-break: break-all;
+}
 
 /*home-css-end*/
 
@@ -677,7 +687,7 @@ h2.title {
     }
 
     h3 {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 600;
         word-break: break-all;
         line-height: 27px;
@@ -685,7 +695,7 @@ h2.title {
 
     h4 {
         margin: 10px 0;
-        font-size: 28px;
+        font-size: 23px;
     }
 }
 
@@ -694,4 +704,21 @@ h2.title {
 }
 
 /*Premier-css-end*/
+
+
+/*irelandbanner-css-start*/
+.irelandbanner.banner {
+    background-image: url(../images/Ireland-banner.jpg);
+    background-position: top;
+}
+
+/*irelandbanner-css-end*/
+
+/*fitnessbanner-css-start*/
+.fitnessbanner.banner {
+    background-image: url(../images/fitnessbanner.jpg);
+}
+
+/*fitnessbanner-css-end*/
+
 /*# sourceMappingURL=style.css.map */
