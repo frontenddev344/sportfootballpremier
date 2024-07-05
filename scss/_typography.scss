@@ -80,6 +80,11 @@ h2 {
     color: $clr-pink;
     position: relative;
 
+    @include mq(md) {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
     &::after {
         background-color: $clr-darkblue;
         content: "";
@@ -88,6 +93,10 @@ h2 {
         height: 3px;
         bottom: 2px;
         left: 0;
+
+        @include mq(md) {
+            content: none;
+        }
     }
 }
 
