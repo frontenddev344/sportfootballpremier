@@ -439,7 +439,7 @@ nav.site-nav {
     display: block;
     width: 100%;
     height: 4rem;
-    border: 1px solid #bdbdbd;
+    border: 1px solid $clr-grey;
     border-radius: 5px;
     padding: 2rem 2rem;
     background: transparent;
@@ -461,14 +461,14 @@ nav.site-nav {
     transition: all 0.2s linear;
     display: inline-block;
     padding: 14px 107px;
-    color: #fff;
+    color: $clr-white;
     text-transform: capitalize;
     border-radius: 10px;
 }
 
 .contact-box .form-group .submit-btn:hover {
     background-color: transparent;
-    color: #0C0B0B;
+    color: $clr-pink;
 }
 
 .contact-box .form-group label {
@@ -562,8 +562,12 @@ a.btn.btn-primary.accept-cookies {
     background: $clr-pink;
     padding: 6px 22px;
     font-size: 20px;
-    color: $clr-black;
+    color: $clr-white;
     border: 1px solid $clr-pink;
+    &:hover{
+        background-color: transparent;
+        color: $clr-pink;
+    }
 }
 
 .card-body h3 {

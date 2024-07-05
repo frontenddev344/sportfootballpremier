@@ -23,6 +23,10 @@ button {
     @include mq(sm) {
             padding: 7px 38px !important;
     }
+    &:hover{
+        background-color: transparent;
+        color: $clr-pink;
+    }
 }
 }
 
