@@ -438,7 +438,6 @@ nav.site-nav {
   transition: 0.3s linear;
 }
 .social-signals i:hover {
-  transform: translateY(-10px);
   color: #f32c46;
 }
 
@@ -765,6 +764,11 @@ h2.title {
 /*Premier-css-start*/
 .premierbanner.banner {
   background-image: url(../images/premier-banner.jpg);
+}
+
+.premier-content.space h4 {
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 .premier-grid {
