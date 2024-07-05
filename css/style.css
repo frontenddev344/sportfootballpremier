@@ -725,8 +725,8 @@ h2.title {
   line-height: 27px;
 }
 .premier-content h4 {
-  margin: 10px 0;
-  font-size: 23px;
+  margin: 6px 0;
+  font-size: 20px;
 }
 
 .premier-top {
@@ -753,6 +753,18 @@ h2.title {
 }
 
 /*footballboots-banner-css-end*/
+/*accessories-banner-css-start*/
+.accessoriesbanner.banner {
+  background-image: url(../images/Accessories-banner.jpg);
+}
+
+/*accessories-banner-css-end*/
+/*clearance-banner-css-start*/
+.clearancebanner.banner {
+  background-image: url(../images/Clearancebanner.jpg);
+}
+
+/*clearance-banner-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
