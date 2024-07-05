@@ -16,6 +16,11 @@ button {
   display: inline-block;
   color: #fff;
 }
+@media screen and (max-width: 575px) {
+  .primary-btn a {
+    padding: 7px 38px !important;
+  }
+}
 
 .banner::after {
   content: "";
@@ -123,7 +128,14 @@ h3 {
     padding: 10px 61px;
   }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1060px) {
+  .search-input {
+    font-size: 13px;
+    padding: 10px 40px 10px 6px;
+  }
+  button.search-btn i.fas.fa-search {
+    font-size: 14px;
+  }
   .site-nav a {
     padding: 8px 15px !important;
   }
@@ -282,6 +294,9 @@ h3 {
   .topcontent-picture {
     max-width: 100%;
     margin-bottom: 25px;
+  }
+  .social-signals i {
+    margin: 0 6px;
   }
 }
 @media screen and (max-width: 767px) {

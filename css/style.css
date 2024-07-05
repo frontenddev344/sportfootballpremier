@@ -17,6 +17,11 @@ button {
   display: inline-block;
   color: #fff;
 }
+@media screen and (max-width: 575px) {
+  .primary-btn a {
+    padding: 7px 38px !important;
+  }
+}
 
 .banner::after {
   content: "";
@@ -756,7 +761,7 @@ h2.title {
 
 .premier-grid {
   display: grid;
-  grid-gap: 15px;
+  grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
 

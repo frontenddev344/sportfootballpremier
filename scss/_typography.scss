@@ -19,7 +19,11 @@ button {
         border-radius: 6px;
         display: inline-block;
         color: $clr-white;
+    
+    @include mq(sm) {
+            padding: 7px 38px !important;
     }
+}
 }
 
 .banner::after {
