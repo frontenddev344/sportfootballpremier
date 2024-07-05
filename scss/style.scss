@@ -137,7 +137,50 @@ button.btn.dropdown-toggle:active {
     border: 0 !important;
     color: $clr-white !important;
 }
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: inherit !important;
+    position: relative;
+    display: inline-flex;
+    align-items: start;
+}
 
+
+ul.subnav {
+    display: block !important; 
+    position: absolute;
+    top: 100%;
+    width: 135px;
+    background: $clr-darkblue;
+    color: $clr-pink;
+    padding: 4px 0;
+    opacity: 1;
+    visibility: hidden;
+    transition: all 0.2s linear;
+    transform: translateY(0px);
+    z-index: 1;
+}
+ul.subnav:hover {
+    visibility: visible  !important;
+}
+
+.dropbtn i {
+    margin-left: -2px;
+    color: $clr-white;
+    line-height: 33px;
+}
+nav.site-nav li:nth-child(2):hover ul.subnav {
+    visibility: visible !important;
+    }
 header.site-header {
     background: #0000004f;
     font-size: 18px;
@@ -179,7 +222,7 @@ header.site-header.sticky {
 
     &:hover {
         color: $clr-pink;
-        border-bottom: 4px solid $clr-pink;
+        border-bottom: 2px solid $clr-pink;
     }
 }
 

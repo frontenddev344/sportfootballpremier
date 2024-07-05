@@ -225,6 +225,52 @@ button.btn.dropdown-toggle:active {
   color: #fff !important;
 }
 
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: inherit !important;
+  position: relative;
+  display: inline-flex;
+  align-items: start;
+}
+
+ul.subnav {
+  display: block !important;
+  position: absolute;
+  top: 100%;
+  width: 135px;
+  background: #232d4c;
+  color: #f32c46;
+  padding: 4px 0;
+  opacity: 1;
+  visibility: hidden;
+  transition: all 0.2s linear;
+  transform: translateY(0px);
+  z-index: 1;
+}
+
+ul.subnav:hover {
+  visibility: visible !important;
+}
+
+.dropbtn i {
+  margin-left: -2px;
+  color: #fff;
+  line-height: 33px;
+}
+
+nav.site-nav li:nth-child(2):hover ul.subnav {
+  visibility: visible !important;
+}
+
 header.site-header {
   background: rgba(0, 0, 0, 0.3098039216);
   font-size: 18px;
@@ -266,7 +312,7 @@ header.site-header.sticky {
 }
 .site-nav a:hover {
   color: #f32c46;
-  border-bottom: 4px solid #f32c46;
+  border-bottom: 2px solid #f32c46;
 }
 
 button.search-btn i.fas.fa-search {
