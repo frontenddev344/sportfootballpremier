@@ -320,6 +320,9 @@ h3 {
   .premier-grid {
     grid-template-columns: 1fr;
   }
+  .contact-box .form-group .submit-btn {
+    padding: 8px 60px;
+  }
 }
 
 
