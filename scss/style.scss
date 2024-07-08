@@ -408,8 +408,12 @@ nav.site-nav {
             font-size: 16px;
             line-height: 25px;
         }
-        a{
-            color: $clr-pink;
+        a {
+            color: $clr-black;
+
+            &:hover {
+                color: $clr-pink;
+            }
         }
     }
 }
@@ -536,8 +540,12 @@ nav.site-nav {
         h3 {
             color: $clr-pink;
         }
-        a{
-            color: $clr-pink;
+        a {
+            color: $clr-black;
+
+            &:hover {
+                color: $clr-pink;
+            }
         }
     }
 }
